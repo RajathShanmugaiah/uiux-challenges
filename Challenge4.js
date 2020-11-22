@@ -3,6 +3,9 @@ function calculateTime(speed) {
   if(speed > 0){
     time = TotalDistance / speed;
   }
+  else{
+    time = 0;
+  }
   return (time+" sec");
 }
 console.log(calculateTime(100));
